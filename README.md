@@ -17,10 +17,10 @@ Overview of the proposed FS-VAE. The frequency-enhanced module integrates the gl
 ## Results
 
 <p align="center">
-  <img src="imgs/result1.png" alt="Result 1" width="500" height="400"/>
+  <img src="imgs/result1.png" alt="Result 1" width="500" height="350"/>
 </p>
 <p align="center">
-  <img src="imgs/result2.png" alt="Result 2" width="1000" height="300"/>
+  <img src="imgs/result2.png" alt="Result 2" width="1000" height="250"/>
 </p>
 
 
