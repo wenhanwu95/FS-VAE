@@ -8,7 +8,19 @@ Zero-shot skeleton-based action recognition aims to develop models capable of id
 
 ## Overall Design
 ![motivation](imgs/fig1.png)
-The overall design of our frequency-semantic enhanced variational autoencoder for zero-shot skeleton action recognition.
+The overall design of our frequency-semantic enhanced variational autoencoder for zero-shot skeleton action recognition. The main contributions are: 
+- **Frequency Enhanced Module:**  
+  We propose a Frequency Enhanced Module that employs Discrete Cosine Transform (DCT) to decompose skeleton motions into high- and low-frequency components, allowing adaptive feature enhancement to improve semantic representation learning in ZSSAR.
+
+- **Semantic-based Action Description (SD):**  
+  We introduce a novel Semantic-based Action Description (SD), comprising Local action Description (LD) and Global action Description (GD), to enrich the semantic information for improving the model performance.
+
+- **Calibrated Cross-Alignment Loss:**  
+  A Calibrated Cross-Alignment Loss is proposed to address modality gaps and skeleton ambiguities by dynamically balancing positive and negative pair contributions. This loss ensures robust alignment between semantic embeddings and skeleton features, improving the model's generalization to unseen actions in ZSSAR.
+
+- **Extensive Experiments:**  
+  Extensive experiments on benchmark datasets demonstrate that our framework significantly outperforms state-of-the-art methods, validating its effectiveness and robustness under various seen-unseen split settings.
+
 
 ## Our Approach
 ![Approach](imgs/fig2.png)
