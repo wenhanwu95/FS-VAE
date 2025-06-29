@@ -26,15 +26,6 @@ The overall design of our frequency-semantic enhanced variational autoencoder fo
 ![Approach](imgs/fig2.png)
 Overview of the proposed FS-VAE. The frequency-enhanced module integrates the global and fine-grained skeleton utilizing the low-frequency and high-frequency adjustments. The semantic-based action descriptions, including action labels, local action descriptions, and global action descriptions, are introduced to generate comprehensive semantic embeddings for cross-alignment. Moreover, the novel calibrated loss in the cross-alignment module is proposed for minimizing the disparity between semantic and skeletal features.
 
-## Results
-
-<p align="center">
-  <img src="imgs/result1.png" alt="Result 1" width="500" height="350"/>
-</p>
-<p align="center">
-  <img src="imgs/result2.png" alt="Result 2" width="1000" height="250"/>
-</p>
-
 
 ## Latest Updates:
 * Create the GitHub repository and project website on 2025/6/26
