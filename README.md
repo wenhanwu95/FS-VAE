@@ -1,7 +1,7 @@
 # Frequency-Semantic Enhanced Variational Autoencoder for Zero-Shot Skeleton-based Action Recognition [ICCV2025]
 [Wenhan Wu](https://sites.google.com/view/wenhanwu/%E9%A6%96%E9%A1%B5), [Zhishuai Guo](https://zhishuaiguo.github.io/), [Chen Chen](https://www.crcv.ucf.edu/chenchen/), [Hongfei Xue](https://havocfixer.github.io/), [Aidong Lu ](https://webpages.charlotte.edu/alu1/)
 
-[![arXiv](https://img.shields.io/badge/arXiv-2407.12322-00ff00.svg)](https://github.com/wenhanwu95/FS-VAE)  
+[![arXiv](https://img.shields.io/badge/arXiv-2407.12322-00ff00.svg)](https://arxiv.org/abs/2506.22179)  
 [![Website](https://img.shields.io/badge/Website-Project%20Page-blue)](https://wenhanwu95.github.io/fsvae-project-page/)
 
 ## Abstract
