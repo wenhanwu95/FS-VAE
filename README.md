@@ -27,10 +27,27 @@ The overall design of our frequency-semantic enhanced variational autoencoder fo
 ![Approach](imgs/fig2.png)
 Overview of the proposed FS-VAE. The frequency-enhanced module integrates the global and fine-grained skeleton utilizing the low-frequency and high-frequency adjustments. The semantic-based action descriptions, including action labels, local action descriptions, and global action descriptions, are introduced to generate comprehensive semantic embeddings for cross-alignment. Moreover, the novel calibrated loss in the cross-alignment module is proposed for minimizing the disparity between semantic and skeletal features.
 
+## Citation
+If you find this code useful for your research, please consider citing the following paper:
+
+```bibtex
+
+@article{wu2025frequencysemanticenhancedvariationalautoencoder,
+  title={Frequency-Semantic Enhanced Variational Autoencoder for Zero-Shot Skeleton-based Action Recognition},
+  author={Wenhan Wu and Zhishuai Guo and Chen Chen and Hongfei Xue and Aidong Lu},
+  year={2025},
+  eprint={2506.22179},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2506.22179},
+  note={arXiv preprint arXiv:2506.22179}
+}
+```
 
 ## Latest Updates:
 * Create the GitHub repository and project website on 2025/6/26
-* Arxiv and Codes are coming soon!
+* Arxiv paper and website are updated on 2025/6/29
+* Codes are coming soon
 
 
 For any questions, feel free to create a new issue or contact:
