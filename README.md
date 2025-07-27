@@ -29,7 +29,7 @@ Overview of the proposed FS-VAE. The frequency-enhanced module integrates the gl
 
 ## Prerequisites:
 - Environments: Please follow [**MSF-GZSSAR**](https://github.com/EHZ9NIWI7/MSF-GZSSAR/tree/master).
-- Datasets: Please follow [**MSF-GZSSAR**](https://github.com/EHZ9NIWI7/MSF-GZSSAR/tree/master) to download and prepare for the skeleton features. The FS-VAE semantic features can be downloaded [here](https://drive.google.com/drive/folders/1ST2ZAn_YzE4u2k26nAoMZkLl2rG20IcC?usp=drive_link) and place it in the root directory after downloading.
+- Datasets: Please follow [**MSF-GZSSAR**](https://github.com/EHZ9NIWI7/MSF-GZSSAR/tree/master) to download and prepare for the skeleton features. The FS-VAE semantic features can be downloaded [here](https://drive.google.com/drive/folders/1dk0SiivOw3Hk8zhK4GgxjohMPWGsdPyY?usp=drive_link) and place it in the root directory after downloading.
 - Training and evaluation: <code>bash fsvae_60.sh</code> for the training&testing on NTU-60; <code>bash fsvae_120.sh</code> for the training&testing on NTU-120
 
 ## Acknowledge
