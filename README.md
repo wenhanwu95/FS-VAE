@@ -27,28 +27,26 @@ The overall design of our frequency-semantic enhanced variational autoencoder fo
 ![Approach](imgs/fig2.png)
 Overview of the proposed FS-VAE. The frequency-enhanced module integrates the global and fine-grained skeleton utilizing the low-frequency and high-frequency adjustments. The semantic-based action descriptions, including action labels, local action descriptions, and global action descriptions, are introduced to generate comprehensive semantic embeddings for cross-alignment. Moreover, the novel calibrated loss in the cross-alignment module is proposed for minimizing the disparity between semantic and skeletal features.
 
+## Prerequisites:
+- Environments: Please follow [**MSF-GZSSAR**](https://github.com/EHZ9NIWI7/MSF-GZSSAR/tree/master).
+- Datasets: Please follow [**MSF-GZSSAR**](https://github.com/EHZ9NIWI7/MSF-GZSSAR/tree/master) to download and prepare for the skeleton features. The FS-VAE semantic features can be downloaded [here](https://drive.google.com/drive/folders/1ST2ZAn_YzE4u2k26nAoMZkLl2rG20IcC?usp=drive_link) and place it in the root directory after downloading.
+- Training and evaluation: <code>bash fsvae_60.sh</code> for the training&testing on NTU-60; <code>bash fsvae_120.sh</code> for the training&testing on NTU-120
+
+## Acknowledge
+Mainly borrow from [**MSF-GZSSAR**](https://github.com/EHZ9NIWI7/MSF-GZSSAR/tree/master) and [**synse-zsl**](https://github.com/skelemoa/synse-zsl). Thanks for the great contributions!
+
 ## Citation
 If you find this code useful for your research, please consider citing the following paper:
 
 ```bibtex
 
-@article{wu2025frequencysemanticenhancedvariationalautoencoder,
+@article{wu2025frequency,
   title={Frequency-Semantic Enhanced Variational Autoencoder for Zero-Shot Skeleton-based Action Recognition},
-  author={Wenhan Wu and Zhishuai Guo and Chen Chen and Hongfei Xue and Aidong Lu},
-  year={2025},
-  eprint={2506.22179},
-  archivePrefix={arXiv},
-  primaryClass={cs.CV},
-  url={https://arxiv.org/abs/2506.22179},
-  note={arXiv preprint arXiv:2506.22179}
+  author={Wu, Wenhan and Guo, Zhishuai and Chen, Chen and Xue, Hongfei and Lu, Aidong},
+  journal={arXiv preprint arXiv:2506.22179},
+  year={2025}
 }
 ```
-
-## Latest Updates:
-* Create the GitHub repository and project website on 2025/6/26
-* Arxiv paper and website are updated on 2025/6/29
-* Codes are coming soon
-
 
 For any questions, feel free to create a new issue or contact:
 ```
